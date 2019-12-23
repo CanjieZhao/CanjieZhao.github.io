@@ -94,8 +94,10 @@ a:hover{
     padding: 10px 50px; 
 }
 
-.button:hover{
-    opacity: 50%;
+.button:hover a{
+/*    opacity: 50%;*/
+    background-color: #FFF888;
+    
 /*
     border: 1px solid black; 
     text-align: center; 
