@@ -5,9 +5,9 @@ body{
 }
 .grid_parent {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 5%;
-    margin: 50px 20% 20px 20%;
+    grid-template-columns: 1fr 1fr  ;
+    grid-gap: 2%;
+    margin: 5% 10% 10% 10%;
 /*    padding-bottom: 100%;*/
 /*
     grid-template-areas: 
@@ -15,6 +15,7 @@ body{
         "work work work "
         "work work work ";
 */
+    
     
 }
 .grid_parent2 {
@@ -33,14 +34,18 @@ body{
 
 img { 
     max-width: 100%;
-    padding-bottom: 10px;
+/*    padding-bottom: 10px;*/
 /*    object-fit: cover;*/
 /*    height: 100v;*/
-    
+}
+
+.grid_parent img:hover{
+    opacity: 65%;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Clarendon L5;
+    letter-spacing: 1.5pt;
 }
 
 /*
@@ -55,7 +60,7 @@ video{
 p{
     font-family: sans-serif;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     margin-top: -35px;
 }
 
@@ -66,7 +71,7 @@ p{
         " header header";
     line-height: 8px;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 0;
 }
 .header_1{
     text-align: left;
@@ -89,12 +94,14 @@ p{
     font-family: Avenir;
 /*    font-weight: 800;*/
     color: grey;
-    font-size: 16px;
-    text-align: center;
-    font-weight: 200;
+    font-size: 30px;
+/*    text-align: center;*/
+    font-weight: 600;
+    letter-spacing: 1.5pt;
     width: 100%;
     margin: 0pt;
     height: 100%;
+    
     
     
     
@@ -107,8 +114,8 @@ p{
 .work_grid{
     display: grid;
     grid-template-columns: 1fr;
-    margin: 100px 200px 10px 200px;
-    grid-gap: 30px;
+    margin: 5% 10%;
+    grid-gap: 16px;
 }
 
 .footer{
@@ -125,7 +132,7 @@ p{
 
 a{
     text-decoration: none;
-    color: navy;
+    color: black;
 }
 a:hover{
 /*    padding-bottom: 10px;*/
