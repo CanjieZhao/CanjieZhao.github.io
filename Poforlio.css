@@ -27,7 +27,7 @@ body{
 }
 
 #author{
-    font-family: Avenir;
+    font-family: Montserrat;
     font-size: 16px;
     font-weight: 200;
 }
@@ -44,8 +44,8 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Clarendon L5;
-    letter-spacing: 1.5pt;
+    font-family: Roboto Slab;
+    letter-spacing: 1pt;
 }
 
 /*
@@ -58,9 +58,9 @@ video{
 }
 
 p{
-    font-family: sans-serif;
+    font-family: Montserrat;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 200;
     margin-top: -35px;
 }
 
@@ -86,18 +86,19 @@ p{
     margin-right: 50px;
     margin-top: 40px;
     font-size: 18px;
-    font-family: Clarendon L5;
+    font-family: Roboto Slab;
+    font-weight: 400;
 
 }
 
 .work_1{
-    font-family: Avenir;
+    font-family: Montserrat;
 /*    font-weight: 800;*/
     color: grey;
     font-size: 30px;
 /*    text-align: center;*/
     font-weight: 600;
-    letter-spacing: 1.5pt;
+    letter-spacing: 1pt;
     width: 100%;
     margin: 0pt;
     height: 100%;
